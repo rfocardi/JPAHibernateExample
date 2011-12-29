@@ -17,7 +17,7 @@ public class AppJPA {
         EntityTransaction tx = em.getTransaction();
         tx.begin();
 
-		DBUser user = new DBUser(666, "pippo", "riccardo");
+		DBUser user = new DBUser(667, "pippo", "riccardo");
  
 	    em.persist(user);
         tx.commit();
